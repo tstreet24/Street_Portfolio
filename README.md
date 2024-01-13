@@ -27,6 +27,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
 ### Results
 * K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when euclidean distance is used. 
+![alt text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project1-img1.png)
 
 ## Project 2: ARMA-GARCH Modeling for Financial Forecasting
 ### Overview
@@ -60,7 +61,8 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 
 ### Results
 * Over 80% of the models capture autocorrelation and heteroeskadicity up to the 14th lag, indicating that ARMA-GARCH models are effective at characterizing the complex structure of time-series.
-* Different evaluation criteria should be emphasized for different objectives. For example, for risk mitigation, models with the best prediction interval coverage probability should be considered best. 
+* Different evaluation criteria should be emphasized for different objectives. For example, for risk mitigation, models with the best prediction interval coverage probability should be considered best.
+![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project2-img1.png)
   
 ## Project 3: Green Epichlorohydrin Plant Production
 ### Overview
@@ -82,12 +84,16 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Develop and optimize a chemical plant to produce and sell ECH produced via the glycerol-derived pathway.
 
 ### Actions
+* Develop a realistic chemical plant outline that contains all of the necessary process units
 * Generate synthetic, interesting data for each process unit in the plant (suppliers, separators, reactors, customers, and wastewater treatment) 
 * Formulate constraints to account for chemical engineering principles such as conservation of mass, separator recoveries, reaction conversions, etc.
-* Add interesting constraints that reflect issues faced by chemical engineers in real world, such as organic composition constraints in wastewater and varying purity requirements unique to each customer. 
+* Add interesting constraints that reflect issues faced by chemical engineers in real world, such as organic composition constraints in wastewater and varying purity requirements unique to each customer.
+![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project3-img1.png) 
 
 ### Results
 * The plant is financially successful, achieving a profit of 7.5M USD. The sales revenue is 20.2M, and the total operating cost is 12.7M USD.
 * ~8K metric tons of material are sent to wastewater, resulting in total waste costs of nearly 900K USD. This is certainly an area of improvement for the plant. As a cost-savings measure, some of the unreacted reactants and byproducts from the second set of separators could be recycled back to the reactor to increase yield and reduce waste costs.
 * The optimal solution does not suggest using most of the available capital. Scaling up the plant to utilize more of the available capital would thus require greater efficiency or external factors to change.
 * The solution uses a mixture of low-cost and high-cost equipment.
+![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project3-img2.png)
+
