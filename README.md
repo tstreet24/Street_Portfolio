@@ -2,7 +2,7 @@
 ## Introduction
 Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains three projects that I am especially proud of and reflect a variety of relevant skills. Each project header is hyperlinked to that project's repository, in case you are interested in seeing the code or more in-depth information. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or [email](street24@mit.edu). 
 
-## Project 1: Optimal K-means and K-medoids Clustering
+## [Project 1: Optimal K-means and K-medoids Clustering](https://github.com/zack-horton/Opt-Project)
 ### Overview
 * Final project for Course 15.095: Machine Learning Under a Modern Optimization Lens at MIT
 * This project is particularly interesting to me since it pertains to the intersection of machine learning and optimization. Indeed, the MBAn curriculum at MIT has convinced me of the power and importance of optimization, so my partner and I wanted to explore new avenues for this intersection. 
@@ -29,7 +29,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when euclidean distance is used. 
 ![alt text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project1-img1.png)
 
-## Project 2: ARMA-GARCH Modeling for Financial Forecasting
+## [Project 2: ARMA-GARCH Modeling for Financial Forecasting](https://github.com/Theo-Dawson/A_EDGE)
 ### Overview
 * Final project for Course 15.072: Advanced Analytics Edge at MIT
 * I took a time-series course in my undergraduate degree and really enjoyed it. I wanted to further explore the field with this project by learning about GARCH and using ARMA in unique ways.
@@ -64,7 +64,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Different evaluation criteria should be emphasized for different objectives. For example, for risk mitigation, models with the best prediction interval coverage probability should be considered best.
 ![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project2-img1.png)
   
-## Project 3: Green Epichlorohydrin Plant Production
+## [Project 3: Green Epichlorohydrin Plant Production](https://github.com/zack-horton/ML-Project)
 ### Overview
 * Final project for Course 15.093: Optimization Methods at MIT
 * I majored in chemical engineering for my undergradate degree. I still really like the field, so I wanted to do a project pertaining to the intersection of chemical engineering and analytics. The inspiration for this project comes from my senior design project, in which my team comprehensively designed a green ECH plant. However, the senior design project did not incorporate any optimization, leading to this project. 
