@@ -1,6 +1,6 @@
 # Tanner Street's Portfolio
 ## Introduction
-Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains three projects that I am especially proud of and reflect a variety of relevant skills. Each project header is hyperlinked to that project's repository, in case you are interested in seeing the code or more in-depth information. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or [email](street24@mit.edu). 
+Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains three projects that I am especially proud of and reflect a variety of relevant skills. Each project header is hyperlinked to that project's repository, in case you are interested in seeing the code or more in-depth information. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
 ## [Project 1: Optimal K-means and K-medoids Clustering](https://github.com/zack-horton/Opt-Project)
 ### Overview
