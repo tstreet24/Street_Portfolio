@@ -61,7 +61,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 
 ### Results
 * Over 80% of the models capture autocorrelation and heteroeskadicity up to the 14th lag, indicating that ARMA-GARCH models are effective at characterizing the complex structure of time-series.
-* Different evaluation criteria should be emphasized for different objectives. For example, for risk mitigation, models with the best prediction interval coverage probability should be considered best.
+* Different evaluation criteria should be emphasized for different objectives. For example, for day trading, models with higher directional accuracies should be considered preferable. 
 ![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project2-img1.png)
   
 ## [Project 3: Green Epichlorohydrin Plant Production](https://github.com/zack-horton/Opt-Project)
@@ -81,13 +81,13 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Epichlorohydrin (ECH) is a key intermediate in the production of epoxy resins, which are used in a large variety of products such as adhesives, electronics, and protective coatings. ECH has historically been produced using petroleum-derived byproducts, but recent research has demonstrated that ECH can also be produced using a glycerol-derived pathway, which is much more environmentally friendly. 
 
 ### Task
-* Develop and optimize a chemical plant to produce and sell ECH produced via the glycerol-derived pathway.
+* Develop and optimize a chemical plant to produce and sell glycerol-derived ECH.
 
 ### Actions
 * Develop a realistic chemical plant outline that contains all of the necessary process units
 * Generate synthetic, interesting data for each process unit in the plant (suppliers, separators, reactors, customers, and wastewater treatment) 
 * Formulate constraints to account for chemical engineering principles such as conservation of mass, separator recoveries, reaction conversions, etc.
-* Add interesting constraints that reflect issues faced by chemical engineers in real world, such as organic composition constraints in wastewater and varying purity requirements unique to each customer.
+* Add interesting constraints that reflect issues faced by chemical engineers in the real world, such as organic composition constraints in wastewater and varying purity requirements unique to each customer.
 ![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project3-img1.png) 
 
 ### Results
