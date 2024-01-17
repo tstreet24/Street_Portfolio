@@ -44,8 +44,8 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Data collected from yfinance python package
 
 ### Preprocessing
-* Log transformation to stabilize variance
-* Dummy variables for seasonality
+* Log transformation of output variable to stabilize variance
+* Add dummy variables for seasonality (day of the week and month of the year)
 
 ### Situation
 * Forecasting the prices of financial instruments is a powerful technique in a variety of scenarios, such as portfolio optimization, risk mitigation, etc. However, forecasting is challenging for many reasons, mostly due to the inherently unpredictable nature of markets and the autocorrelated structure of time-series.
@@ -62,7 +62,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 ### Results
 * Over 80% of the models capture autocorrelation and heteroeskadicity up to the 14th lag, indicating that ARMA-GARCH models are effective at characterizing the complex structure of time-series.
 * Different evaluation criteria should be emphasized for different objectives. For example, for day trading, models with higher directional accuracies should be considered preferable. 
-![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project2-img1.png)
+
   
 ## [Project 3: Green Epichlorohydrin Plant Production](https://github.com/zack-horton/Opt-Project)
 ### Overview
