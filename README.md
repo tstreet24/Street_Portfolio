@@ -62,7 +62,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 ### Results
 * Over 80% of the models capture autocorrelation and heteroeskadicity up to the 14th lag, indicating that ARMA-GARCH models are effective at characterizing the complex structure of time-series.
 * Different evaluation criteria should be emphasized for different objectives. For example, for day trading, models with higher directional accuracies should be considered preferable. 
-![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project2-img.png)
+![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/main/images/project2-img.png)
   
 ## [Project 3: Green Epichlorohydrin Plant Production](https://github.com/zack-horton/Opt-Project)
 ### Overview
