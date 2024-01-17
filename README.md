@@ -27,7 +27,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
 ### Results
 * K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when euclidean distance is used. 
-![alt text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project1-img1.png)
+![alt text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project1-img.png)
 
 ## [Project 2: ARMA-GARCH Modeling for Financial Forecasting](https://github.com/Theo-Dawson/A_EDGE)
 ### Overview
