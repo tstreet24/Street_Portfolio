@@ -37,7 +37,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_arch.png))
 * The baseline model, which predicts the prior day's price, generally outperformed the LSTM model
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
-* The web application runs effectively and quickly ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_demo_1.png)) ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_demo_2.png))
+* The web application runs effectively and quickly ![](images/dl_demo_1.png) ![](images/dl_demo_2.png)
 
 ## Future Work
 * Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy
