@@ -2,7 +2,7 @@
 ## Introduction
 Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects at the bottom of this document. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
-# Project 1: SlotMarketSQL - 
+# Project 1: SlotMarketSQL - S&P 500 Forecasting with LSTMs and Transformer-Based Chat Interface
 
 ## Overview
 * Final project for Course 15.773: Hands-On Deep Learning at MIT
@@ -39,7 +39,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
   <img src="images/dl_arch.png" width="400" alt="Image description">
 * The baseline model, which predicts the prior day's price, generally outperformed the LSTM model.
 
-   <img src="images/dl_lstm_eval.png" width="400" alt="Image description">
+   <img src="images/dl_lstm_eval.png" width="600" alt="Image description">
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
 * The web application runs effectively and quickly.
 
