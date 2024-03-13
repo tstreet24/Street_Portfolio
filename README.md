@@ -7,6 +7,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 ## Overview
 * Final project for Course 15.773: Hands-On Deep Learning at MIT
 * I am very interested in time-series forecasting and have done several projects involving more traditional methods such as SARIMA. My goal was to not only understand these advanced techniques but also to develop a valuable tool for end-users.
+* See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/HODL%20Project%20Report%20-%20Group%20A26.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/HODL%20Final%20Presentation%20-%20A26.pdf), and [Colab](https://github.com/tstreet24/Street_Portfolio/blob/main/SlotMarketSQL.ipynb)
 
 ## Situation
 * The ability to leverage historical data and build intelligent models for future stock price and risk predictions is vital to day traders’ decision-making process as well as portfolio management. However, many traders do not have the skill set to create these models or easily interface with crucial data. 
@@ -33,10 +34,10 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Packaged the models and chatbot interface into a Streamlit web application for user interaction.
 
 ## Results
-* Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length ![INSERT PICTURE](#)
+* Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_arch.png))
 * The baseline model, which predicts the prior day's price, generally outperformed the LSTM model
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
-* The web application runs effectively and quickly ![INSERT PICTURE/VIDEO](#)
+* The web application runs effectively and quickly ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_demo_1.png)) ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_demo_2.png))
 
 ## Future Work
 * Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy
@@ -51,6 +52,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 ## Overview
 * Final project for Course 15.095: Machine Learning Under a Modern Optimization Lens at MIT
 * This project is particularly interesting to me since it pertains to the intersection of machine learning and optimization. Indeed, the MBAn curriculum at MIT has convinced me of the power and importance of optimization, so my partner and I wanted to explore new avenues for this intersection.
+* See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/15.095%20-%20Machine%20Learning%20Project%20Report.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/15.095%20-%20Machine%20Learning%20Project%20Presentation%20(1).pdf), and [GitHub repository](https://github.com/zack-horton/ML-Project)
 
 ## Situation
 - Clustering is typically performed using heuristic algorithms, so optimality is not guaranteed and results vary based on random initializations.
@@ -71,7 +73,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 - Standardization
 
 ## Actions
-- Use mixed-integer modeling to perform k-means and k-medoids clustering. ![INPUT PICTURES](#)
+- Use mixed-integer modeling to perform k-means and k-medoids clustering. ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/ml_formu_kmeans.png)) ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/ml_formu_kmed.png))
 - Compare the optimization models to heuristic algorithms using metrics such as within-cluster sum of squares and silhouette scores.
 - Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
 
@@ -87,9 +89,9 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 # Additional Projects
 ## 1. ARMA-GARCH Modeling for Financial Forecasting
 - **Final project for Course 15.072: Advanced Analytics Edge at MIT**
-- See report and GitHub repository
+- See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/15.072%20-%20Advanced%20Analytics%20Edge%20Report.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/15.072%20-%20Advanced%20Analytics%20Edge%20Presentation%20(1).pdf), and [GitHub repository](https://github.com/Theo-Dawson/A_EDGE)
 
 ## 2. Optimization in Application: Green Epichlorohydrin Plant Production
 - **Final project for Course 15.093: Optimization Methods at MIT**
-- See report and GitHub repository
+- See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/15.093%20-%20Optimization%20Project%20Report.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/15.093%20-%20Optimization%20Project%20Presentation%20(1).pdf), and [GitHub repository](https://github.com/zack-horton/Opt-Project)
 
