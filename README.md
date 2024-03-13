@@ -1,119 +1,95 @@
 # Tanner Street's Portfolio
 ## Introduction
-Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains three projects that I am especially proud of and reflect a variety of relevant skills. Each project header is hyperlinked to that project's repository, in case you are interested in seeing the code or more in-depth information. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
+Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
 # Project 1: SlotMarketSQL
 
 ## Overview
-- **Objective**: Final project for Course 15.773: Hands-On Deep Learning at MIT.
-- **Inspiration**: A deep interest in time-series forecasting, with prior experience in traditional methods such as SARIMA, and a desire to explore advanced deep learning techniques to develop a valuable tool for end-users.
+* Final project for Course 15.773: Hands-On Deep Learning at MIT
+* I am very interested in time-series forecasting and have done several projects involving more traditional methods such as SARIMA. My goal was to not only understand these advanced techniques but also to develop a valuable tool for end-users.
 
 ## Situation
-- **Challenge**: Day traders and portfolio managers need to leverage historical data for making informed stock price and risk predictions but often lack the necessary skills to create or interact with predictive models.
+* The ability to leverage historical data and build intelligent models for future stock price and risk predictions is vital to day traders’ decision-making process as well as portfolio management. However, many traders do not have the skill set to create these models or easily interface with crucial data. 
 
 ## Task
-- **Goal**: To forecast daily closing stock prices and volatilities using deep learning models and create a user-friendly chatbot for day traders to easily access stock information.
+* Forecast daily closing stock prices and volatilities using deep learning models and create a chatbot that allows a day trader to easily access information by querying the interface.
 
 ## Data
-- **Sources**: 
-  - Closing prices of S&P 500 stocks from 2022-01-22 to 2024-01-21, obtained from Yahoo Finance API.
-  - A diverse set of user queries for the chatbot, manually created and labeled with the help of ChatGPT for permutations.
+* Closing prices of S&P 500 stocks over two years (from 2022-01-22 to 2024-01-21), procured from Yahoo Finance using the API.
+* Manually created and labeled a diverse set of user queries, using ChatGPT for question permutations 
 
 ## Tools and Methods
-- **Tools**: Python (utilizing TensorFlow, Keras, arch, Pandas, NumPy).
-- **Methods**: Employed LSTMs, GARCH models, Transformers, walk-forward validation, Slot-Filling, and Text-to-SQL Parsing for comprehensive data analysis and prediction.
+* Tools: Python (TensorFlow, Keras, arch, Pandas, NumPy)
+* Methods: LSTMs, GARCH, Transformers, Walk forward validation, Slot-Filling, Text-to-SQL Parsing
 
 ## Pre-Processing
-- Techniques applied:
-  - Min-max normalization of closing stock prices.
-  - Calculation of log returns for modeling stock volatility.
+* Min-max normalization of closing stock prices
+* Calculating log returns for volatility modeling
 
 ## Actions
-- Developed an LSTM model to forecast next-day stock prices, optimizing various parameters through experimental iterations and walk-forward validation.
-- Implemented a GARCH model for predicting stock volatility.
-- Created a Slot-Filling mechanism using transformers for dynamic SQL query generation based on user input.
-- Developed a Streamlit web application to interface the models and chatbot, enhancing user interaction.
+* Developed an LSTM model to forecast next-day stock prices, optimizing parameters such as epochs, input sequence length, LSTM units, dropout rate, and LSTM stacks through various experiments using walk-forward validation for evaluation.
+* Implemented a GARCH model to predict stock volatility based on past variances and squared residuals.
+* Created a Slot-Filling mechanism with transformers to allow users to generate custom SQL queries for stock market analytics.
+* Packaged the models and chatbot interface into a Streamlit web application for user interaction.
 
 ## Results
-- **Optimal LSTM Configuration**: Identified as having 6 stacks with 15 units each, a 15% dropout rate, and a 7-day input sequence length. ![INSERT PICTURE](URL_TO_PICTURE)
-- **Model Performance**: While the baseline model often outperformed the LSTM, the project demonstrated the feasibility and potential of using deep learning for stock forecasting.
-- **Chatbot Accuracy**: Achieved ~93% accuracy in test sets, validating the effectiveness of the Slot-Filling approach. ![INSERT PICTURE/VIDEO](URL_TO_PICTURE_OR_VIDEO)
-- **Application Efficacy**: The Streamlit application provided an effective and rapid interface for users.
+* Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length ![INSERT PICTURE](#)
+* The baseline model, which predicts the prior day's price, generally outperformed the LSTM model
+* Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
+* The web application runs effectively and quickly ![INSERT PICTURE/VIDEO](#)
 
 ## Future Work
-- Expand data inputs to include exogenous variables like market sentiment and economic factors for improved forecasting accuracy.
-- Tailor models and parameters to individual stocks for bespoke analysis.
-- Enhance the GARCH model for more precise volatility predictions.
-- Broaden the chatbot's capabilities to include advanced query handling and filtering.
-- Explore the integration of Large Language Models (LLMs) for more sophisticated SQL query generation.
-- Implement automated data updates and model retraining for sustained platform relevance and accuracy.
+* Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy
+* Customize parameters for individual stocks, acknowledging that each stock may respond differently to various model configurations.
+* Fine-tune and evaluate the GARCH models for more accurate volatility forecasts.
+* Include advanced filtering options and the ability to handle a broader array of query types, potentially through more extensive training datasets or leveraging pre-trained models.
+* Investigate the use of LLMs for a more robust approach to generating SQL queries, aiming to handle a wider range of user queries.
+* Implement mechanisms for automatic daily updates of data and model retraining to ensure the platform remains up-to-date and scalable
 
 
-## [Project 2: ARMA-GARCH Modeling for Financial Forecasting](https://github.com/Theo-Dawson/A_EDGE)
-### Overview
-* Final project for Course 15.072: Advanced Analytics Edge at MIT
-* I took a time-series course in my undergraduate degree and really enjoyed it. I wanted to further explore the field with this project by learning about GARCH and using ARMA in unique ways.
+# Project 2: Optimal K-Means and K-Medoids Clustering
+## Overview
+* Final project for Course 15.095: Machine Learning Under a Modern Optimization Lens at MIT
+* This project is particularly interesting to me since it pertains to the intersection of machine learning and optimization. Indeed, the MBAn curriculum at MIT has convinced me of the power and importance of optimization, so my partner and I wanted to explore new avenues for this intersection.
 
-### Contributors
-* [Zack Horton](https://github.com/zack-horton), [Emily Hahn](https://github.com/Ech232), [Theo Dawson](https://github.com/Theo-Dawson)
-### Tools
-* R, Python
-### Data
-* Daily closing prices of the PIMCO Active Bond Exchange-Traded-Fund (with ticker BOND) between November 2018 and November 2023
-* BOND is an ETF encompassing a portfolio of bonds
-* Data collected from yfinance python package
+## Situation
+- Clustering is typically performed using heuristic algorithms, so optimality is not guaranteed and results vary based on random initializations.
 
-### Preprocessing
-* Log transformation of output variable to stabilize variance
-* Add dummy variables for seasonality (day of the week and month of the year)
+## Task
+- Formulate mixed-integer optimization models for k-means and k-medoids cluster to address the shortcomings of heuristics while also remaining scalable and time efficient.
 
-### Situation
-* Forecasting the prices of financial instruments is a powerful technique in a variety of scenarios, such as portfolio optimization, risk mitigation, etc. However, forecasting is challenging for many reasons, mostly due to the inherently unpredictable nature of markets and the autocorrelated structure of time-series.
+## Data
+- **Abalone** from UC Irvine Machine Learning Repository (4177 observations, 9 features, mostly continuous)
+- **Similarity Prediction** from UC Irvine Machine Learning Repository (100 observations, 17 features, mostly categorical)
+
+## Tools and Methods
+- **Tools:** Julia/JuMP
+- **Methods:** Clustering, Mixed-integer modeling
+
+## Pre-Processing
+- Min-max normalization
+- Standardization
+
+## Actions
+- Use mixed-integer modeling to perform k-means and k-medoids clustering. ![INPUT PICTURES](#)
+- Compare the optimization models to heuristic algorithms using metrics such as within-cluster sum of squares and silhouette scores.
+- Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
+
+## Results
+- K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when Euclidean distance is used.
+
+## Future Work
+- Find creative ways to transform fractional, binary equations into linear terms.
+- Expand dataset variety to assess model scalability and effectiveness across different domains.
+
+
   
-### Task
-* Use a combination of regression, ARMA, and GARCH models to forecast the daily closing price of BOND up to 14 days in advance.
+# Additional Projects
+## 1. ARMA-GARCH Modeling for Financial Forecasting
+- **Final project for Course 15.072: Advanced Analytics Edge at MIT**
+- See report and GitHub repository
 
-### Actions
-* Fit regression model using time and seasonal dummy variable to capture trend and seasonality. Fit ARMA model on regression model's residuals to capture autocorrelation. Fit GARCH model on regression model's residuals to capture heteroeskadicity.
-* Generate point predictions by summing regression and ARMA forecasts. Generate prediction intervals by summing point prediction and GARCH forecast (multiplied by desired Z-score).
-* Generate thousands of models by varying parameters from each component.
-* Evaluate models using metrics such as the Box Test, the White Test, root mean square error, mean directional accuracy, etc.
-
-### Results
-* Over 80% of the models capture autocorrelation and heteroeskadicity up to the 14th lag, indicating that ARMA-GARCH models are effective at characterizing the complex structure of time-series.
-* Different evaluation criteria should be emphasized for different objectives. For example, for day trading, models with higher directional accuracies should be considered preferable. 
-![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/main/images/project2-img.png)
-  
-## [Project 3: Green Epichlorohydrin Plant Production](https://github.com/zack-horton/Opt-Project)
-### Overview
-* Final project for Course 15.093: Optimization Methods at MIT
-* I majored in chemical engineering for my undergradate degree. I still really like the field, so I wanted to do a project pertaining to the intersection of chemical engineering and analytics. The inspiration for this project comes from my senior design project, in which my team comprehensively designed a green ECH plant. However, the senior design project did not incorporate any optimization, leading to this project. 
-  
-* ### Contributors
-* [Zack Horton](https://github.com/zack-horton)
-### Tools
-* Julia, JuMP
-### Data
-* Physical and chemical property data, such as molecular weights and stoichiometric coefficients, from PubChem
-* Synthetized data for everything else (separator costs, reactor costs, etc.) based on real-world example
-
-### Situation
-* Epichlorohydrin (ECH) is a key intermediate in the production of epoxy resins, which are used in a large variety of products such as adhesives, electronics, and protective coatings. ECH has historically been produced using petroleum-derived byproducts, but recent research has demonstrated that ECH can also be produced using a glycerol-derived pathway, which is much more environmentally friendly. 
-
-### Task
-* Develop and optimize a chemical plant to produce and sell glycerol-derived ECH.
-
-### Actions
-* Develop a realistic chemical plant outline that contains all of the necessary process units
-* Generate synthetic, interesting data for each process unit in the plant (suppliers, separators, reactors, customers, and wastewater treatment) 
-* Formulate constraints to account for chemical engineering principles such as conservation of mass, separator recoveries, reaction conversions, etc.
-* Add interesting constraints that reflect issues faced by chemical engineers in the real world, such as organic composition constraints in wastewater and varying purity requirements unique to each customer.
-![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project3-img1.png) 
-
-### Results
-* The plant is financially successful, achieving a profit of 7.5M USD. The sales revenue is 20.2M, and the total operating cost is 12.7M USD.
-* ~8K metric tons of material are sent to wastewater, resulting in total waste costs of nearly 900K USD. This is certainly an area of improvement for the plant. As a cost-savings measure, some of the unreacted reactants and byproducts from the second set of separators could be recycled back to the reactor to increase yield and reduce waste costs.
-* The optimal solution does not suggest using most of the available capital. Scaling up the plant to utilize more of the available capital would thus require greater efficiency or external factors to change.
-* The solution uses a mixture of low-cost and high-cost equipment.
-![alt_text](https://github.com/tstreet24/Street_Portfolio/blob/27789bca24cb18553f72e8ed7b71fc64499ff2e1/images/project3-img2.png)
+## 2. Optimization in Application: Green Epichlorohydrin Plant Production
+- **Final project for Course 15.093: Optimization Methods at MIT**
+- See report and GitHub repository
 
