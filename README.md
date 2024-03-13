@@ -1,6 +1,6 @@
 # Tanner Street's Portfolio
 ## Introduction
-Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
+Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects at the bottom of this document. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
 # Project 1: SlotMarketSQL
 
@@ -34,18 +34,18 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Packaged the models and chatbot interface into a Streamlit web application for user interaction.
 
 ## Results
-* Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_arch.png))
-* The baseline model, which predicts the prior day's price, generally outperformed the LSTM model
+* Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length. ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/dl_arch.png))
+* The baseline model, which predicts the prior day's price, generally outperformed the LSTM model. ![](images/dl_lstm_eval.png)
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
-* The web application runs effectively and quickly ![](images/dl_demo_1.png) ![](images/dl_demo_2.png)
+* The web application runs effectively and quickly. ![](images/dl_demo_1.png) ![](images/dl_demo_2.png)
 
 ## Future Work
-* Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy
+* Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy.
 * Customize parameters for individual stocks, acknowledging that each stock may respond differently to various model configurations.
 * Fine-tune and evaluate the GARCH models for more accurate volatility forecasts.
 * Include advanced filtering options and the ability to handle a broader array of query types, potentially through more extensive training datasets or leveraging pre-trained models.
 * Investigate the use of LLMs for a more robust approach to generating SQL queries, aiming to handle a wider range of user queries.
-* Implement mechanisms for automatic daily updates of data and model retraining to ensure the platform remains up-to-date and scalable
+* Implement mechanisms for automatic daily updates of data and model retraining to ensure the platform remains up-to-date and scalable.
 
 
 # Project 2: Optimal K-Means and K-Medoids Clustering
@@ -78,7 +78,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 - Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
 
 ## Results
-- K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when Euclidean distance is used.
+- K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when Euclidean distance is used. ![](images/ml_clust_results.png)
 
 ## Future Work
 - Find creative ways to transform fractional, binary equations into linear terms.
