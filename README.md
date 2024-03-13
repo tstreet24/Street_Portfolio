@@ -39,13 +39,13 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
   <img src="images/dl_arch.png" width="400" alt="Image description">
 * The baseline model, which predicts the prior day's price, generally outperformed the LSTM model.
 
-   <img src="images/dl_lstm_eval" width="400" alt="Image description">
+   <img src="images/dl_lstm_eval.png" width="400" alt="Image description">
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
 * The web application runs effectively and quickly.
 
-  <img src="images/dl_demo_1.png" width="400" alt="Image description">
+  <img src="images/dl_demo_1.png" width="500" alt="Image description">
   
-  <img src="images/dl_demo_2.png" width="400" alt="Image description">
+  <img src="images/dl_demo_2.png" width="500" alt="Image description">
 
 ## Future Work
 * Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy.
