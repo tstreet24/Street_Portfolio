@@ -2,32 +2,52 @@
 ## Introduction
 Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains three projects that I am especially proud of and reflect a variety of relevant skills. Each project header is hyperlinked to that project's repository, in case you are interested in seeing the code or more in-depth information. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
-## [Project 1: Optimal K-means and K-medoids Clustering](https://github.com/zack-horton/ML-Project)
-### Overview
-* Final project for Course 15.095: Machine Learning Under a Modern Optimization Lens at MIT
-* This project is particularly interesting to me since it pertains to the intersection of machine learning and optimization. Indeed, the MBAn curriculum at MIT has convinced me of the power and importance of optimization, so my partner and I wanted to explore new avenues for this intersection. 
+# Project 1: SlotMarketSQL
 
-### Contributors
-* [Zack Horton](https://github.com/zack-horton)
-### Tools
-* Julia, JuMP
-### Data
-* Abalone from UC Irvine Machine Learning Repository (4177 observations, 9 features, mostly continuous)
-* Similarity Prediction from UC Irvine Machine Learning Repository (100 observations, 17 features, mostly categorical)
-### Preprocessing
-* Min-max normalization
-* Standardization
-### Situation
-* Clustering is typically performed using heuristic algorithms, so optimality is not guaranteed and results vary based on random initializations.
-### Task
-* Formulate optimization models to address the shortcomings of heuristics while also remaining scalable and time efficient.
-### Actions
-* Use mixed-integer modeling to perform k-means and k-medoids clustering.
-* Compare the optimization models to heuristic algorithms using metrics such as within-cluster sum of squares and silhouette scores.
-* Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
-### Results
-* K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when euclidean distance is used. 
-![alt text](https://github.com/tstreet24/Street_Portfolio/blob/main/images/project1-img.png)
+## Overview
+- **Objective**: Final project for Course 15.773: Hands-On Deep Learning at MIT.
+- **Inspiration**: A deep interest in time-series forecasting, with prior experience in traditional methods such as SARIMA, and a desire to explore advanced deep learning techniques to develop a valuable tool for end-users.
+
+## Situation
+- **Challenge**: Day traders and portfolio managers need to leverage historical data for making informed stock price and risk predictions but often lack the necessary skills to create or interact with predictive models.
+
+## Task
+- **Goal**: To forecast daily closing stock prices and volatilities using deep learning models and create a user-friendly chatbot for day traders to easily access stock information.
+
+## Data
+- **Sources**: 
+  - Closing prices of S&P 500 stocks from 2022-01-22 to 2024-01-21, obtained from Yahoo Finance API.
+  - A diverse set of user queries for the chatbot, manually created and labeled with the help of ChatGPT for permutations.
+
+## Tools and Methods
+- **Tools**: Python (utilizing TensorFlow, Keras, arch, Pandas, NumPy).
+- **Methods**: Employed LSTMs, GARCH models, Transformers, walk-forward validation, Slot-Filling, and Text-to-SQL Parsing for comprehensive data analysis and prediction.
+
+## Pre-Processing
+- Techniques applied:
+  - Min-max normalization of closing stock prices.
+  - Calculation of log returns for modeling stock volatility.
+
+## Actions
+- Developed an LSTM model to forecast next-day stock prices, optimizing various parameters through experimental iterations and walk-forward validation.
+- Implemented a GARCH model for predicting stock volatility.
+- Created a Slot-Filling mechanism using transformers for dynamic SQL query generation based on user input.
+- Developed a Streamlit web application to interface the models and chatbot, enhancing user interaction.
+
+## Results
+- **Optimal LSTM Configuration**: Identified as having 6 stacks with 15 units each, a 15% dropout rate, and a 7-day input sequence length. ![INSERT PICTURE](URL_TO_PICTURE)
+- **Model Performance**: While the baseline model often outperformed the LSTM, the project demonstrated the feasibility and potential of using deep learning for stock forecasting.
+- **Chatbot Accuracy**: Achieved ~93% accuracy in test sets, validating the effectiveness of the Slot-Filling approach. ![INSERT PICTURE/VIDEO](URL_TO_PICTURE_OR_VIDEO)
+- **Application Efficacy**: The Streamlit application provided an effective and rapid interface for users.
+
+## Future Work
+- Expand data inputs to include exogenous variables like market sentiment and economic factors for improved forecasting accuracy.
+- Tailor models and parameters to individual stocks for bespoke analysis.
+- Enhance the GARCH model for more precise volatility predictions.
+- Broaden the chatbot's capabilities to include advanced query handling and filtering.
+- Explore the integration of Large Language Models (LLMs) for more sophisticated SQL query generation.
+- Implement automated data updates and model retraining for sustained platform relevance and accuracy.
+
 
 ## [Project 2: ARMA-GARCH Modeling for Financial Forecasting](https://github.com/Theo-Dawson/A_EDGE)
 ### Overview
