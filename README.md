@@ -2,11 +2,11 @@
 ## Introduction
 Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects at the bottom of this document. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
-# Project 1: SlotMarketSQL
+# Project 1: SlotMarketSQL - 
 
 ## Overview
 * Final project for Course 15.773: Hands-On Deep Learning at MIT
-* I am very interested in time-series forecasting and have done several projects involving more traditional methods such as SARIMA. My goal was to not only understand these advanced techniques but also to develop a valuable tool for end-users.
+* I am very interested in time-series forecasting and have done several projects involving more traditional methods such as SARIMA. My goal was to not only understand these advanced techniques but also develop a valuable tool for end-users.
 * See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/HODL%20Project%20Report%20-%20Group%20A26.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/HODL%20Final%20Presentation%20-%20A26.pdf), and [Colab](https://github.com/tstreet24/Street_Portfolio/blob/main/SlotMarketSQL.ipynb)
 
 ## Situation
@@ -17,11 +17,11 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 
 ## Data
 * Closing prices of S&P 500 stocks over two years (from 2022-01-22 to 2024-01-21), procured from Yahoo Finance using the API.
-* Manually created and labeled a diverse set of user queries, using ChatGPT for question permutations 
+* Manually created and labeled a diverse set of user queries, using ChatGPT for question permutations.
 
 ## Tools and Methods
-* Tools: Python (TensorFlow, Keras, arch, Pandas, NumPy)
-* Methods: LSTMs, GARCH, Transformers, Walk forward validation, Slot-Filling, Text-to-SQL Parsing
+* **Tools:** Python (TensorFlow, Keras, arch, Pandas, NumPy)
+* **Methods:** LSTMs, GARCH, Transformers, Walk forward validation, Slot-Filling, Text-to-SQL Parsing
 
 ## Pre-Processing
 * Min-max normalization of closing stock prices
@@ -102,10 +102,10 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
   
 # Additional Projects
 ## 1. ARMA-GARCH Modeling for Financial Forecasting
-- **Final project for Course 15.072: Advanced Analytics Edge at MIT**
+- Final project for Course 15.072: Advanced Analytics Edge at MIT
 - See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/15.072%20-%20Advanced%20Analytics%20Edge%20Report.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/15.072%20-%20Advanced%20Analytics%20Edge%20Presentation%20(1).pdf), and [GitHub repository](https://github.com/Theo-Dawson/A_EDGE)
 
 ## 2. Optimization in Application: Green Epichlorohydrin Plant Production
-- **Final project for Course 15.093: Optimization Methods at MIT**
+- Final project for Course 15.093: Optimization Methods at MIT
 - See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/15.093%20-%20Optimization%20Project%20Report.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/15.093%20-%20Optimization%20Project%20Presentation%20(1).pdf), and [GitHub repository](https://github.com/zack-horton/Opt-Project)
 
