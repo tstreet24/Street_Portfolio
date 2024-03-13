@@ -73,7 +73,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 - Standardization
 
 ## Actions
-- Use mixed-integer modeling to perform k-means and k-medoids clustering. ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/ml_formu_kmeans.png)) ![alt text]([http://url/to/img.png](https://github.com/tstreet24/Street_Portfolio/blob/main/images/ml_formu_kmed.png))
+- Use mixed-integer modeling to perform k-means and k-medoids clustering. ![](images/ml_formu_kmeans.png)  ![](images/ml_formu_kmed.png)
 - Compare the optimization models to heuristic algorithms using metrics such as within-cluster sum of squares and silhouette scores.
 - Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
 
