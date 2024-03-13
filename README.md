@@ -35,13 +35,17 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 
 ## Results
 * Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length.
-  <img src="images/dl_arch.png" width="600" alt="Image description">
+
+  <img src="images/dl_arch.png" width="400" alt="Image description">
 * The baseline model, which predicts the prior day's price, generally outperformed the LSTM model.
-  <img src="images/dl_lstm_eval" width="600" alt="Image description">
+
+   <img src="images/dl_lstm_eval" width="400" alt="Image description">
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
 * The web application runs effectively and quickly.
-  <img src="images/dl_demo_1.png" width="600" alt="Image description">
-  <img src="images/dl_demo_2.png" width="600" alt="Image description">
+
+  <img src="images/dl_demo_1.png" width="400" alt="Image description">
+  
+  <img src="images/dl_demo_2.png" width="400" alt="Image description">
 
 ## Future Work
 * Incorporate exogenous variables, such as market sentiment indicators, economic factors, and other stock movements, to improve LSTM forecasting accuracy.
@@ -78,13 +82,16 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 
 ## Actions
 - Use mixed-integer modeling to perform k-means and k-medoids clustering.
-  <img src="images/ml_formu_kmeans.png" width="600" alt="Image description">)
-  <img src="images/ml_formu_kmed.png" width="600" alt="Image description">
+
+  <img src="images/ml_formu_kmeans.png" width="400" alt="Image description">)
+
+  <img src="images/ml_formu_kmed.png" width="400" alt="Image description">
 - Compare the optimization models to heuristic algorithms using metrics such as within-cluster sum of squares and silhouette scores.
 - Evaluate the models on a diverse range of scenarios to find generalizable results by varying characteristics such as dataset, number of observations, number of clusters, usage of warm starts, etc.
 
 ## Results
 - K-means and k-medoids clustering can be developed into optimization models using mixed-integer techniques. The models struggle to converge or improve the warm start solution as dataset size increases and when Euclidean distance is used.
+
   <img src="images/ml_clust_results.png" width="600" alt="Image description">
 
 ## Future Work
