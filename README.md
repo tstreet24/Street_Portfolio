@@ -7,6 +7,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 ## Overview
 * Final project for Course 15.773: Hands-On Deep Learning at MIT
 * I am very interested in time-series forecasting and have done several projects involving more traditional methods such as SARIMA. My goal was to not only understand these advanced techniques but also develop a valuable tool for end-users.
+* Collaborated with Zack Horton, Virginia Maguire, and Yutong Zhang
 * See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/HODL%20Project%20Report%20-%20Group%20A26.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/HODL%20Final%20Presentation%20-%20A26.pdf), and [Colab](https://github.com/tstreet24/Street_Portfolio/blob/main/SlotMarketSQL.ipynb)
 
 ## Situation
@@ -60,6 +61,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 ## Overview
 * Final project for Course 15.095: Machine Learning Under a Modern Optimization Lens at MIT
 * This project is particularly interesting to me since it pertains to the intersection of machine learning and optimization. Indeed, the MBAn curriculum at MIT has convinced me of the power and importance of optimization, so my partner and I wanted to explore new avenues for this intersection.
+* Collaborated with Zack Horton
 * See [report](https://github.com/tstreet24/Street_Portfolio/blob/main/reports/15.095%20-%20Machine%20Learning%20Project%20Report.pdf), [presentation](https://github.com/tstreet24/Street_Portfolio/blob/main/presentations/15.095%20-%20Machine%20Learning%20Project%20Presentation%20(1).pdf), and [GitHub repository](https://github.com/zack-horton/ML-Project)
 
 ## Situation
