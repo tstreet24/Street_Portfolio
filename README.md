@@ -29,7 +29,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 * Calculating log returns for volatility modeling
 
 ## Actions
-* Developed an LSTM model to forecast next-day stock prices, optimizing parameters such as epochs, input sequence length, LSTM units, dropout rate, and LSTM stacks through various experiments using walk-forward validation for evaluation.
+* Developed an LSTM model to forecast next-day stock prices, optimizing parameters such as epochs, input sequence length, LSTM units, LSTM stacks, and dropout rate through various experiments using walk-forward validation for evaluation.
 * Implemented a GARCH model to predict stock volatility based on past variances and squared residuals.
 * Created a Slot-Filling mechanism with transformers to allow users to generate custom SQL queries for stock market analytics.
 * Packaged the models and chatbot interface into a Streamlit web application for user interaction.
