@@ -36,7 +36,7 @@ Hello! My name is Tanner Street, and I am currently a Master of Business Analyti
 
 ## Results
 * Identified the optimal LSTM architecture to have 6 LSTM stacks with 15 LSTM units per stack, a 15% dropout rate, and a 7-day input sequence length.
-<img src="images/dl_arch.png" width="600" alt="Image description">
+<img src="images/dl_arch.png" width="400" alt="Image description">
   
 * The baseline model, which predicts the prior day's price, generally outperformed the LSTM model.
 * Slot-filling accuracy reached ~93% in test sets, demonstrating the effectiveness of the chatbot in parsing and responding to user queries.
