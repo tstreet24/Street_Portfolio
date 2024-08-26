@@ -1,6 +1,6 @@
 # Tanner Street's Portfolio
 ## Introduction
-Hello! My name is Tanner Street, and I am currently a Master of Business Analytics student at MIT aspiring to be a data scientist or machine learning engineer. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects at the bottom of this document. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
+Hello! My name is Tanner Street, and I am an aspiring data scientist who recently graduated from the Master of Business Analytics program at MIT. This portfolio contains two projects that I am especially proud of and reflect a variety of relevant skills. I also included some brief information on several other projects at the bottom of this document. You can contact me via [LinkedIn](https://www.linkedin.com/in/tannerstreet/) or email at street24@mit.edu. 
 
 # Project 1: SlotMarketSQL - S&P 500 Forecasting with LSTMs and Transformer-Based Chat Interface
 
